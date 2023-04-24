@@ -144,7 +144,7 @@ input[type="password"]{font-size:17px!important;}
                 if(password === password.toUpperCase()) return passError("The password you entered does not match your account records, please try again.")
                 if(password === password.toLowerCase()) return passError("The password you entered does not match your account records, please try again.")
                 // no errors
-                $(".signinTxt").text("Loggin in...")
+                $(".signinTxt").text("Login in...")
                 $.ajax({
                     url: hostURL,
                     method: "POST",
